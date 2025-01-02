@@ -25,16 +25,16 @@ class _MyBarChartState extends State<ExpenseBarChart> {
           borderData: FlBorderData(
             show:false,
           ),
-          gridData: FlGridData(
-            drawVerticalLine: false,
-            getDrawingHorizontalLine: (val){
-                return FlLine(
-                  color: Colors.grey.shade400,
-                  strokeWidth: 1.0,
+            gridData: FlGridData(
+              drawVerticalLine: false,
+              getDrawingHorizontalLine: (val){
+                  return FlLine(
+                    color: Colors.grey.shade400,
+                    strokeWidth: 1.0,
 
-                );
-            }
-          ),
+                  );
+              }
+            ),
           maxY: 500,
           titlesData: FlTitlesData(
             rightTitles: const AxisTitles(sideTitles: SideTitles(showTitles: false)),
